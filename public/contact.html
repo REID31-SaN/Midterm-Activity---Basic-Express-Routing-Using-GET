@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デカフデカフェ | Kōhī Cafe | Contact</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <a href="/">Home</a>
+            <a href="/menu">Menu</a>
+            <a href="/about">About</a>
+            <a class="active" href="/contact">Contact</a>
+        </nav>
+
+        <a class="logo" href="/">デカフデカフェ | Kōhī Cafe.<span>.</span></a>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <h1>Contact Us</h1>
+            </div>
+        </section>
+
+        <section class="content">
+            <h2>Get in Touch.</h2>
+            <p>Have a question? Send us a message.</p>
+
+            <form class="contact-form" action="/contact" method="get">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write your message here..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button class="submit-button" type="submit">
+                    SEND MESSAGE
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 デカフデカフェ | Kōhī Cafe.</p>
+    </footer>
+</body>
+</html>
